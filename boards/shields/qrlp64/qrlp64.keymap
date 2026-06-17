@@ -10,22 +10,13 @@
 #include <dt-bindings/zmk/ext_power.h>
 #include <dt-bindings/zmk/mouse.h>
 
-#define MOVE_UP 3000
-#define MOVE_DOWN -3000
-#define MOVE_LEFT -3000
-#define MOVE_RIGHT 3000
-
 &mmv {
-    time-to-max-speed-ms = 1000;
+    time-to-max-speed-ms = <1000>;
 };
-
-#define SCRL_UP 20
-#define SCRL_DOWN -20
 
 &msc {
-    time-to-max-speed-ms = 1000;
+    time-to-max-speed-ms = <1000>;
 };
-
 
 / {
 	keymap {

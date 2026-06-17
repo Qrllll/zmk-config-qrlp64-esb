@@ -2,8 +2,6 @@
 
 #include <dt-bindings/zmk/mouse.h>
 
-
-
 / {
     chosen {
         zmk,kscan = &mock_kscan;
