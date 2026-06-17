@@ -19,7 +19,7 @@
     time-to-max-speed-ms = 1000;
 };
 
-#define SCRL_UP 20)
+#define SCRL_UP 20
 #define SCRL_DOWN -20
 
 &msc {
