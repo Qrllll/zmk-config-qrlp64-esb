@@ -4,29 +4,23 @@
 
 #define DEFAULT 0
 
-
-#define CMDR(usage) &ch LG(usage) usage
-#define OPTR(usage) &ch LA(usage) usage
-
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/ext_power.h>
 #include <dt-bindings/zmk/mouse.h>
 
-#define MOVE_UP MOVE_VERT(3000)
-#define MOVE_DOWN MOVE_VERT(-3000)
-#define MOVE_LEFT MOVE_HOR(-3000)
-#define MOVE_RIGHT MOVE_HOR(3000)
+#define MOVE_UP 3000
+#define MOVE_DOWN -3000
+#define MOVE_LEFT -3000
+#define MOVE_RIGHT 3000
 
 &mmv {
     time-to-max-speed-ms = 1000;
 };
 
-#define SCROLL_UP SCROLL_VERT(20)
-#define SCROLL_DOWN SCROLL_VERT(-20)
-#define SCROLL_LEFT SCROLL_HOR(-20)
-#define SCROLL_RIGHT SCROLL_HOR(20)
+#define SCRL_UP 20)
+#define SCRL_DOWN -20
 
 &msc {
     time-to-max-speed-ms = 1000;
