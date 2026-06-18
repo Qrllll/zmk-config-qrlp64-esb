@@ -1,5 +1,4 @@
 #include <dt-bindings/zmk/matrix_transform.h>
-#include "qrlp64.dtsi"
 #include <dt-bindings/zmk/mouse.h>
 
 / {
