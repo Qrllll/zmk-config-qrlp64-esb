@@ -8,5 +8,5 @@ requires:
 features:
   - keys
 siblings:
-  - cb70s_left
-  - cb70s_right
+  - qrlp64_left
+  - qrlp64_right
