@@ -2,21 +2,6 @@
 
 #include <dt-bindings/zmk/mouse.h>
 
-/ {
-
-    leds {
-        compatible = "gpio-leds";
-        user_led: led_0 {
-            gpios = <&gpio0 15 GPIO_ACTIVE_HIGH>;
-            label = "User LED";
-        };
-    };
-
-    aliases {
-        indicator-led = &user_led;
-    };
-};
-
 &kscan0 {
 row-gpios
 = <&pro_micro 3 (GPIO_ACTIVE_HIGH  | GPIO_PULL_DOWN)>
