@@ -1,0 +1,10 @@
+manifest:
+  remotes:
+    - name: qrllll
+      url-base: https://github.com/qrllll
+  projects:
+    - name: zmk-config-qrlp64-esb
+      remote: qrllll
+      import: west.yml
+  self:
+    path: zmk-config-qrlp64-esb
