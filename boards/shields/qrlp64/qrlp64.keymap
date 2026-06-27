@@ -8,14 +8,16 @@
 #include <behaviors/battery_percentage_printer.dtsi>
 
 #define ZMK_POINTING_DEFAULT_MOVE_VAL 3000
-#define ZMK_POINTING_DEFAULT_SCRL_VAL 20
+#define ZMK_POINTING_DEFAULT_SCRL_VAL 5
 
 &mmv {
     time-to-max-speed-ms = <1000>;
+    trigger-period-ms = <7>;
 };
 
 &msc {
-    time-to-max-speed-ms = <1000>;
+    time-to-max-speed-ms = <0>;
+    trigger-period-ms = <7>;
 };
 
 / {
