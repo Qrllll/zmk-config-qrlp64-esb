@@ -1,5 +1,6 @@
 #include "qrlp64.dtsi" // Notice that the main dtsi files are included in the overlay.
-
+#include "qrlp64_esb_addr.dtsi"
+/ { chosen { zmk,esb-self = &left; }; };
 #include <dt-bindings/zmk/mouse.h>
 
 &kscan0 {

@@ -6,6 +6,8 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: badjeff
       url-base: https://github.com/badjeff
+    - name: damex
+      url-base: https://github.com/damex
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -13,5 +15,9 @@ manifest:
     - name: zmk-behavior-battery-percentage-printer
       remote: badjeff
       revision: main
+    - name: zmk-feature-split-esb
+      remote: damex
+      revision: v0.3.6
+      import: true
   self:
     path: config
