@@ -21,5 +21,8 @@ manifest:
       remote: damex
       revision: v0.3.6
       import: true
+    - name: zmk-feature-split-esb
+      remote: badjeff
+      revision: main
   self:
     path: config
