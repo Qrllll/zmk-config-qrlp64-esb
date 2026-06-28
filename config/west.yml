@@ -8,8 +8,7 @@ manifest:
       url-base: https://github.com/damex
     - name: charlesmst
       url-base: https://github.com/charlesmst
-    - name: nrfconnect
-      url-base: https://github.com/nrfconnect
+    
   projects:
     - name: zmk
       remote: charlesmst
@@ -22,26 +21,5 @@ manifest:
       remote: damex
       revision: v0.3.6
       import: true
-      
-    - name: sdk-nrf
-      remote: nrfconnect
-      revision: v2.6.4
-      path: nrf
-      import:
-        name-allowlist:
-          - mbedtls
-          - nrfxlib
-
-    - name: nrfxlib
-      remote: nrfconnect
-      revision: v2.6.4
-      repo-path: sdk-nrfxlib
-      path: nrfxlib
-
-    - name: mbedtls
-      remote: nrfconnect
-      revision: v2.6.4
-      repo-path: sdk-mbedtls
-      path: mbedtls
   self:
     path: config
