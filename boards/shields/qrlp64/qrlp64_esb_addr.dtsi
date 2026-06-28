@@ -12,6 +12,9 @@
                 pipe = <1>;
                 prefix = <0xC3>;
                 weight = <1>;
+        tx-power-dbm = <8>;
+        use-fast-ramp-up;
+        retransmit-delay-us = <300>;
             };
         };
     };
