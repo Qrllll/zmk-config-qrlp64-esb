@@ -8,7 +8,7 @@
         retransmit-delay-us = <300>;
         idle-keepalive-ms = <2000>;
         peripheral-timeout-ms = <10000>;
-        rssi-floor-dbm = <(-70)>;
+        rssi-floor-dbm = <-70>;
 
         hop-channels = [48 50 52 54 56 58 60 83 85 87 89 91 93 95 97 99];
         hop-anchors = [52 58 89];
