@@ -6,6 +6,7 @@
         tx-power-dbm = <8>;
         use-fast-ramp-up;
         retransmit-delay-us = <300>;
+        hop-threshold = <32>;
 
         peripherals {
             left: peripheral_left {
