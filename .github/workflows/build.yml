@@ -143,14 +143,6 @@ jobs:
       - name: West Patch (apply damex ESB patches)
         working-directory: ${{ env.base_dir }}
         run: west patch -sm zmk-feature-split-esb apply
-      - name: Inspect ESB module
-        working-directory: ${{ env.base_dir }}
-        run: |
-         echo "=== Modules ==="
-        ls modules
-
-         echo "=== ESB files ==="
-         find modules/zmk-feature-split-esb -type f | sort
 
       - name: Check ZMK revision
         working-directory: ${{ env.base_dir }}
