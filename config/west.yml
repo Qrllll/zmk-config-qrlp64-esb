@@ -14,7 +14,7 @@ manifest:
       import: app/west.yml
     - name: zmk-feature-split-esb
       remote: damex
-      revision: v0.3.6
+      revision: v0.5.1
       import: true
   self:
     path: config
