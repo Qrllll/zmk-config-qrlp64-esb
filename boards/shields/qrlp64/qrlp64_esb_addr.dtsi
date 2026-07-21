@@ -6,8 +6,6 @@
         tx-power-dbm = <8>;
         use-fast-ramp-up;
         retransmit-delay-us = <300>;
-        idle-keepalive-ms = <2000>;
-        peripheral-timeout-ms = <10000>;
 
         hop-channels = [3C 3D 3E 3F 40 41 42 43 44 45 46 47 48 49 4A 4B 4C 4D 4E 4F 50 51 52 53];
         hop-anchors = [3C 47 53];
