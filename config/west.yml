@@ -7,7 +7,7 @@ manifest:
     - name: charlesmst
       url-base: https://github.com/charlesmst
     - name: Qrllll
-      url-base: https://https://github.com/Qrllll
+      url-base: https://github.com/Qrllll
     
   projects:
     - name: zmk
