@@ -6,8 +6,6 @@ manifest:
       url-base: https://github.com/damex
     - name: charlesmst
       url-base: https://github.com/charlesmst
-    - name: badjeff
-      url-base: https://github.com/badjeff
     
   projects:
     - name: zmk
