@@ -18,8 +18,5 @@ manifest:
       remote: damex
       revision: v0.5.2
       import: true
-    - name: zmk-behavior-battery-percentage-printer
-      remote: badjeff
-      revision: main
   self:
     path: config
