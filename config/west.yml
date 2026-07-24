@@ -16,7 +16,7 @@ manifest:
       import: app/west.yml
     - name: zmk-feature-split-esb
       remote: damex
-      revision: v0.5.1
+      revision: v0.5.2
       import: true
     - name: zmk-behavior-battery-percentage-printer
       remote: badjeff
