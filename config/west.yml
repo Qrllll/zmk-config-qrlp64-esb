@@ -4,6 +4,8 @@ manifest:
       url-base: https://github.com/damex
     - name: charlesmst
       url-base: https://github.com/charlesmst
+    - name: Qrllll
+      url-base: https://github.com/Qrllll
     
   projects:
     - name: zmk
@@ -11,8 +13,8 @@ manifest:
       revision: feat/deskhop-sync
       import: app/west.yml
     - name: zmk-feature-split-esb
-      remote: damex
-      revision: v0.5.2
+      remote: Qrllll
+      revision: main
       import: true
   self:
     path: config
