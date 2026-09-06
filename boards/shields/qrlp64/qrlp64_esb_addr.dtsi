@@ -2,22 +2,17 @@
     esb_link {
         compatible = "zmk,split-esb";
         base-address = [E7 D3 9A 5C];
-
         tx-power-dbm = <8>;
         use-fast-ramp-up;
         retransmit-delay-us = <300>;
         retransmit-count = <8>;
-
-        hop-channels = [3C 3D 3E 3F 40 41 42 43 44 45 46 47 48 49 4A 4B 4C 4D 4E 4F 50 51 52 53];
-        hop-anchors = [3C 47 53];
-
+        hop-channels = [3C];
         peripherals {
             left: peripheral_left {
                 pipe = <0>;
                 prefix = <0x4B>;
                 weight = <1>;
             };
-
             right: peripheral_right {
                 pipe = <1>;
                 prefix = <0xC3>;
