@@ -6,7 +6,7 @@
         use-fast-ramp-up;
         retransmit-delay-us = <300>;
         retransmit-count = <8>;
-        hop-channels = [3C];
+        hop-channels = [5A];
         peripherals {
             left: peripheral_left {
                 pipe = <0>;
