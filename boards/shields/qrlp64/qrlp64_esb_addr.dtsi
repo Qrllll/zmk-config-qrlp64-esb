@@ -1,3 +1,4 @@
+dts
 / {
     esb_link {
         compatible = "zmk,split-esb";
@@ -16,6 +17,16 @@
             right: peripheral_right {
                 pipe = <1>;
                 prefix = <0xC3>;
+                weight = <1>;
+            };
+            kb2_left: peripheral_kb2_left {
+                pipe = <2>;
+                prefix = <0x1F>;
+                weight = <1>;
+            };
+            kb2_right: peripheral_kb2_right {
+                pipe = <3>;
+                prefix = <0x8D>;
                 weight = <1>;
             };
         };

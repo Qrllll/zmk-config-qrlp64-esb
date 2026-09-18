@@ -5,8 +5,11 @@ type: shield
 url: https://github.com/Qrllll/zmk-config-qrlp64-esb
 requires:
   - pro_micro
+  - xiao_ble
 features:
   - keys
 siblings:
   - qrlp64_left
   - qrlp64_right
+  - qrsplit64_left
+  - qrsplit64_right
