@@ -1,4 +1,3 @@
-dts
 / {
     esb_link {
         compatible = "zmk,split-esb";
