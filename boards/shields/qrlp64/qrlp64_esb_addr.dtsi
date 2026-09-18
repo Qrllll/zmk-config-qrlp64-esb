@@ -8,12 +8,12 @@
         retransmit-count = <8>;
         hop-channels = [5A];
         peripherals {
-            left: peripheral_left {
+            qrlp64_left: peripheral_qrlp64_left {
                 pipe = <0>;
                 prefix = <0x4B>;
                 weight = <1>;
             };
-            right: peripheral_right {
+            qrlp64_right: peripheral_qrlp64_right {
                 pipe = <1>;
                 prefix = <0xC3>;
                 weight = <1>;
