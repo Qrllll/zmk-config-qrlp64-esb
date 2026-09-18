@@ -18,12 +18,12 @@
                 prefix = <0xC3>;
                 weight = <1>;
             };
-            kb2_left: peripheral_kb2_left {
+            qrsplit64_left: peripheral_qrsplit64_left {
                 pipe = <2>;
                 prefix = <0x1F>;
                 weight = <1>;
             };
-            kb2_right: peripheral_kb2_right {
+            qrsplit64_right: peripheral_qrsplit64_right {
                 pipe = <3>;
                 prefix = <0x8D>;
                 weight = <1>;
