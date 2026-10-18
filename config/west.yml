@@ -16,5 +16,8 @@ manifest:
       remote: Qrllll
       revision: main
       import: true
+    - name: zmk-dongle-display
+      remote: Qrllll
+      revision: main
   self:
     path: config

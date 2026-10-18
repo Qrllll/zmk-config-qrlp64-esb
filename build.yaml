@@ -12,7 +12,7 @@ include:
     shield: qrlp64_dongle
     snippet: zmk-usb-logging
   - board: xiao_ble//zmk
-    shield: qrlp64_dongle
+    shield: qrlp64_dongle dongle_display
     snippet: zmk-usb-logging
   - board: nice_nano@2.0.0//zmk
     shield: qrlp64_left
