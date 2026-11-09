@@ -6,7 +6,7 @@ manifest:
   projects:
     - name: zmk
       remote: Qrllll
-      revision: main
+      revision: feat/deskhop-sync
       import: app/west.yml
     - name: qr-zmk-feature-split-esb
       remote: Qrllll
